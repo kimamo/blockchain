@@ -16,7 +16,7 @@ namespace Kimamo.Blockchain
 
             Console.WriteLine($"Is Chain Valid: {zamudaCoin.IsValid()}");
 
-            Console.WriteLine($"Update amount to 10000");
+            Console.WriteLine($"Update amount to 50000");
             zamudaCoin.Chain[1].Data = "{sender:Kibunja,receiver:Kimamo,amount:5000}";
 
             Console.WriteLine($"Is Chain Valid: {zamudaCoin.IsValid()}");
